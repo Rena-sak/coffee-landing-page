@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(coffee\ bg\ .jpg);
+    background-position: cover;
+    background-size: cover;
+
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(68, 34, 0, 0.6);
+}
+.logo img{
+    border-radius: 50%;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-items ul{
+    display: inline-flex;
+}
+.nav-items li{
+    list-style-type: none;
+    margin:0px, 5px;
+    padding: 1rem;
+}
+li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.header .btn ul li{
+    list-style-type: none;
+    margin:0px, 5px;
+    padding: 1rem;
+}
+.btn li:hover{
+    background: rgba(68, 34, 0, 0.6);
+}
+.nav-items li:hover{
+    background: rgba(68, 34, 0, 0.6);
+}
+
+.sub-menu{
+    display: none;
+}
+.nav-items li:hover .sub-menu{
+    display: block;
+    position:absolute;
+    background:rgb(66,38,1,0.6) ;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+.nav-items li:hover .sub-menu ul{
+    display: block;
+    margin: 15px;
+}
+.nav-items li:hover .sub-menu ul li{
+    width: 150px;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px white solid; 
+    background: transparent;  
+}
+.nav-items li:hover .sub-menu ul li a:hover{
+    color:rgb(66,38,1,0.9) ;
+}
+.sub-menu-sub{
+    display: none;
+}
+.subset-menu:hover .sub-menu-sub{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background:rgb(66,38,1,0.6) ;
+    border-radius: 15px;
+
+}
+.subset-menu:hover .sub-menu-sub ul li a:hover{
+    color:rgb(66,38,1,0.9) ;
+}
+h1{
+    margin-top:120px;
+    margin-left:110px ;
+    padding-left:1px;
+    font-size: 6rem;
+    color: white;
+}
+p{
+    font-size: 38px;
+    color:rgb(64, 63, 63,1.5);
+    margin-top: 28px;
+    margin-left:110px ;
+    font-weight:75px;
+    line-height:25px;
+    
+}
