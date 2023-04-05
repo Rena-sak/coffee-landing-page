@@ -23,9 +23,7 @@ body{
     display: flex;
     align-items: center;
 }
-.nav-items ul{
-    display: inline-flex;
-}
+
 .nav-items li{
     list-style-type: none;
     margin:0px, 5px;
@@ -36,6 +34,9 @@ li a{
     color:#fff;
     font-weight: 600;
     font-size: 25px;
+}
+.nav-items .fa{
+    margin-right: 8px;
 }
 
 .header .btn ul li{
