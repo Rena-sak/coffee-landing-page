@@ -5,10 +5,13 @@
 }
 
 body{
-    background-image: url(coffee\ bg\ .jpg);
+    background-image: url(cafe\ bg.jpg);
     background-position: cover;
     background-size: cover;
-
+    height: 100vh;
+}
+.main{
+    width: 100%
 }
 .header{
     display:flex;
@@ -57,7 +60,7 @@ li a{
 .nav-items li:hover .sub-menu{
     display: block;
     position:absolute;
-    background:rgb(66,38,1,0.6) ;
+    background:rgba(71, 48, 17, 0.6) ;
     border-radius: 10px;
     margin-top: 15px;
     margin-left: -15px;
@@ -97,14 +100,41 @@ h1{
     margin-left:110px ;
     padding-left:1px;
     font-size: 6rem;
-    color: white;
+    color: rgb(72, 68, 68);
 }
 p{
     font-size: 38px;
-    color:rgb(64, 63, 63,1.5);
+    color:rgb(80, 73, 73);
     margin-top: 28px;
     margin-left:110px ;
     font-weight:75px;
-    line-height:25px;
-    
+    line-height:35px;
+    width: 350px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 88%;
+    align-items: center;
+    margin-right: 220px;
+}
+
+button{
+    width: 180px;
+    color:white;
+    font-size: 16px;
+    padding: 12px 0;
+    background-color: #fff;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top:30px ;
+    margin-left: 110px;
+    overflow: hidden;
+    transition: 1s;
+    background: transparent;
+}
+button:hover{
+   background:rgb(66,38,1,0.6);
+    font-size: 20px;
+    color: #fff;
 }
